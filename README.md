@@ -18,8 +18,8 @@ Ad: Hasan,
 Soyad: Ali,
 Doğum Yılı: 2000 olsun.
 
-Sistemin döndüreceği kullanıcı adı: "hali.2000"
+Sistemin döndüreceği kullanıcı adı: "h_ali.2000"
 
 #### Not: Bu uygulama string methodları kullanılarak yapılmalıdır.
 
-(ad + "." + dogumtarihi) gibi bir ifade kullanılmamalıdır.
+(ad + "\_" + soyad + "." + dogumtarihi) gibi bir ifade kullanılmamalıdır.
